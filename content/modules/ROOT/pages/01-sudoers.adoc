@@ -1,0 +1,14 @@
+[[sudo-is-hard-1]]
+== SUDO is hard
+
+*Scott*: "`I put one of those drop-in things in. Should be good to go!
+But they say its not working, must be a pebkac right?`"
+
+Scott’s drop-in is in `+/etc/sudoers.d/webteam-sudo+`
+
+Can you configure sudo to allow the `+webteam+` user to run
+`+systemctl+` commands on the `+httpd+` service through sudo *without*
+requiring a password? (This should include things like, start, stop,
+restart, status, and reload)
+
+Webteam user credentials *username: webteam password: redhat*
