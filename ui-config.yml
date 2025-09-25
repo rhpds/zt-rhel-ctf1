@@ -13,3 +13,5 @@ antora:
 tabs:
   - name: ">_ terminal"
     url: /wetty
+    modules:
+      - "01-sudoers"
