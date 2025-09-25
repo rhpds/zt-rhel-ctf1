@@ -1,3 +1,3 @@
 #!/bin/bash
 
-dnf -y install tmux lsof
+#dnf -y install tmux lsof
