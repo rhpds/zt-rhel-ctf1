@@ -1,0 +1,18 @@
+[[rhel-ctf-challenge-1]]
+== Challenge 1
+
+*Welcome to the RHEL 10 CTF!*
+
+Your mission: Complete the challenge to retrieve the flag.
+
+=== Instructions
+
+Replace this section with your actual challenge instructions.
+
+Example challenge structure:
+- Challenge description
+- Required tasks
+- Hints (optional)
+- Success criteria
+
+Good luck!

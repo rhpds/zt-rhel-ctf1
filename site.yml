@@ -1,8 +1,8 @@
 ---
 site:
-  title: "Sudo is Hard"
+  title: "RHEL CTF Challenge"
   url: https://github.com/rhpds/showroom_template_zero
-  start_page: modules::01-sudoers.adoc
+  start_page: modules::01-challenge.adoc
 
 content:
   sources:

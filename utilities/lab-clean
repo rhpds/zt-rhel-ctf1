@@ -1,6 +1,16 @@
 #!/usr/bin/env bash
 #
 
-echo "Removing old site..."
+echo "Cleaning up..."
+
+# Check if podman exists, otherwise use docker
+CONTAINER_CMD="docker"
+if command -v podman &> /dev/null; then
+    CONTAINER_CMD="podman"
+fi
+
+$CONTAINER_CMD stop showroom-server 2>/dev/null || true
 rm -rf ./www/*
-echo "Old site removed"
+rm -rf ./.cache/*
+
+echo "Cleanup complete."

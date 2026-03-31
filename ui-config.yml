@@ -3,8 +3,8 @@ antora:
   name: modules
   dir: www
   modules:
-    - name: "01-sudoers"
-      label: "Sudoers"
+    - name: "01-challenge"
+      label: "Challenge 1"
       solveButton: true
     - name: "02-flag"
       label: "Flag"

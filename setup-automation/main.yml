@@ -74,4 +74,3 @@
     when:
     - r_result is defined
     - r_result.rc != 0
-
